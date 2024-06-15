@@ -37,11 +37,14 @@ This is a multithreaded ICMP/TCP scanner written in Python. It allows you to sca
 
 ## Usage
 
-Run the scanner with the following command:
+    Run the scanner with the following command:
 
-```sh
-./scanner.py -i <ip_range> -p <ports> -t <threads> --interface <interface>
+    ```sh
+    ./scanner.py -i <ip_range> -p <ports> -t <threads> --interface <interface>
+    ```
 
 ## example
 
-sudo ./scanner.py -i 192.168.1.0/24 -p 22 80 443 -t 4 --interface eth0
+    ```sh
+    sudo ./scanner.py -i 192.168.1.0/24 -p 22 80 443 -t 4 --interface eth0
+    ```

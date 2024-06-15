@@ -45,6 +45,4 @@ This is a multithreaded ICMP/TCP scanner written in Python. It allows you to sca
 
 ## example
 
-    ```sh
     sudo ./scanner.py -i 192.168.1.0/24 -p 22 80 443 -t 4 --interface eth0
-    ```

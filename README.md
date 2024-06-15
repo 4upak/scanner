@@ -39,9 +39,7 @@ This is a multithreaded ICMP/TCP scanner written in Python. It allows you to sca
 
     Run the scanner with the following command:
 
-    ```sh
     ./scanner.py -i <ip_range> -p <ports> -t <threads> --interface <interface>
-    ```
 
 ## example
 
